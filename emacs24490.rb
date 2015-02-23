@@ -4,7 +4,7 @@ class Emacs24490 < Formula
   homepage "https://www.gnu.org/software/emacs/"
 
   devel do
-    url "http://git.sv.gnu.org/r/emacs.git", :branch => "emacs-24"
+    url "http://git.sv.gnu.org/r/emacs.git", :tag => "emacs-24.4.90"
     version "24.4.90"
     depends_on "autoconf" => :build
     depends_on "automake" => :build
